@@ -1,8 +1,8 @@
 angular.module('ionic.weather', ['ionic', 'ionic.weather.services', 'ionic.weather.filters', 'ionic.weather.directives'])
 
-.constant('WUNDERGROUND_API_KEY', 'bc5d38f7baa092e9')
+.constant('WUNDERGROUND_API_KEY', 'd8893a8f7ca96e57')
 
-.constant('FLICKR_API_KEY', '504fd7414f6275eb5b657ddbfba80a2c')
+.constant('FLICKR_API_KEY', '329978df4a52c2057c5d1130d2cf1302')
 
 .filter('int', function() {
   return function(v) {
